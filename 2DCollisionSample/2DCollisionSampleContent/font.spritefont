@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo contiene una descripción xml de una fuente y la canalización de contenido de XNA
+Framework lo leerá. Siga los comentarios para personalizar el aspecto
+de la fuente del juego y para cambiar los caracteres con los que se puede
+dibujar.
+-->
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+
+    <!--
+    Modifique esta cadena para cambiar la fuente que se importará.
+    -->
+    <FontName>Segoe UI Mono</FontName>
+
+    <!--
+    El tamaño es un valor de tipo float que se mide en puntos. Modifíquelo para cambiar
+    el tamaño de la fuente.
+    -->
+    <Size>8</Size>
+
+    <!--
+    El espaciado es un valor de tipo float que se mide en píxeles. Modifíquelo para cambiar
+    la cantidad de espacio entre caracteres.
+    -->
+    <Spacing>0</Spacing>
+
+    <!--
+    UseKerning controla el diseño de la fuente. Si el valor es true, se usará la información de interletraje
+    al colocar caracteres.
+    -->
+    <UseKerning>true</UseKerning>
+
+    <!--
+    Style controla el estilo de la fuente. Las entradas válidas son "Regular", "Bold", "Italic",
+    y "Bold, Italic" y distinguen entre mayúsculas y minúsculas.
+    -->
+    <Style>Regular</Style>
+
+    <!--
+    Si quita los comentarios de esta línea, el carácter predeterminado se sustituirá al dibujar
+    o medir texto que contiene caracteres que no incluye la fuente.
+    -->
+    <!-- <DefaultCharacter>*</DefaultCharacter> -->
+
+    <!--
+    CharacterRegions controla las letras que hay disponibles en la fuente. Cada
+    carácter desde el principio hasta al final se creará y estará disponible para dibujar. El
+    intervalo predeterminado oscila entre 32 (espacio ASCII) y 126 ('~'), que engloba el conjunto de caracteres
+    latino básico. Los caracteres se ordenan de acuerdo al estándar Unicode.
+    Consulte la documentación para obtener más información.
+    -->
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>&#32;</Start>
+        <End>&#256;</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>

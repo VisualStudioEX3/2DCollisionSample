@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DCollisionEngine", "2DCollisionSample\2DCollisionSample\2DCollisionEngine.csproj", "{22DAB41E-9923-4FC1-A281-68DBC74A1338}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "2DCollisionSampleContent", "2DCollisionSample\2DCollisionSampleContent\2DCollisionSampleContent.contentproj", "{91514566-50B5-490E-A2B9-D620B688FEC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22DAB41E-9923-4FC1-A281-68DBC74A1338}.Debug|x86.ActiveCfg = Debug|x86
+		{22DAB41E-9923-4FC1-A281-68DBC74A1338}.Debug|x86.Build.0 = Debug|x86
+		{22DAB41E-9923-4FC1-A281-68DBC74A1338}.Release|x86.ActiveCfg = Release|x86
+		{22DAB41E-9923-4FC1-A281-68DBC74A1338}.Release|x86.Build.0 = Release|x86
+		{91514566-50B5-490E-A2B9-D620B688FEC8}.Debug|x86.ActiveCfg = Debug|x86
+		{91514566-50B5-490E-A2B9-D620B688FEC8}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
