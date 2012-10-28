@@ -48,12 +48,9 @@ namespace _2DCollisionEngine
         {
             float rad = Microsoft.Xna.Framework.MathHelper.ToRadians(direction);
 
-            // Forzamos rendodeo a mayor para asegurarnos de que el vector devuelto sea correcto con la 
-            // posicion en pixeles y evitar fallos de precision por los decimales:
             float x = (float)Math.Round(point.X + distance * Math.Cos(rad), 0);
             float y = (float)Math.Round(point.Y + distance * Math.Sin(rad), 0);
 
-            // Generamos el vector en base a los valores redondeados:
             return new Vector2(x, y);
         }
 
