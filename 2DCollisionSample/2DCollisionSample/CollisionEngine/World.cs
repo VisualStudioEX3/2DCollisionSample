@@ -95,7 +95,7 @@ namespace _2DCollisionEngine
             // Recorremos la lista de cuerpos de la escena y calculamos sus colisiones y su respuesta en caso de haber colision:
             foreach (Body currentBody in bodies)
             {
-                // Buscamos colisiones con el resto de cuerpos solidos de la escena:
+                // Buscamos colisiones con el resto de cuerpos de la escena:
                 collisions.Clear();
                 foreach (Body body in bodies)
                 {
